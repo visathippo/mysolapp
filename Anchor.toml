@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+mysolapp = "6tqS5yifeM9MH9wpFC2btFXBYfTgR25YPpTegdXftAJe"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/danyu/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
